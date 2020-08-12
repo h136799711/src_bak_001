@@ -1,0 +1,1 @@
+$('#foots').html('<a class="copyrights" href="/" target="_blank"></a> <a class="copyversions" href="/"></a>');var url = '/../javascript.php?part=iflogin&url='+window.location.href;$.get(url,function(data){$('#iflogin').html(data);});$('#gzh img').error(function(){$("#gzh").hide();$("#sjfw").show();});
