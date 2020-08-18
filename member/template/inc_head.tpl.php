@@ -16,7 +16,8 @@
 <div class="header">
     <div class="clearfix header-inner">
         <div class="brand">
-            <h1><a href="<?php echo $mymps_global[SiteUrl]?>" title="<?php echo $mymps_global[SiteName]?>" target="_blank"><img src="<?php echo $mymps_global[SiteUrl]?><?php echo $mymps_global[SiteLogo]?>" max-height="100"/></a></h1>
+            <h1><a href="<?php echo $mymps_global[SiteUrl]?>" title="<?php echo $mymps_global[SiteName]?>" target="_blank">
+                    <img src="<?php echo $mymps_global[SiteUrl]?><?php echo $mymps_global[SiteLogo]?>" max-height="100"/></a></h1>
             <h2><a href="?">用户中心</a></h2>
         </div>
     </div>

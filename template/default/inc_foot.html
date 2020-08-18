@@ -92,26 +92,26 @@
         	<div class="hd">关于我们</div>
             <div class="bd">
             	<ul>
-                	<!--{php $navurl_foot = mymps_get_navurl('foot',30);}-->
-                    <!--{loop $navurl_foot $k $mymps}-->
+                	{php $navurl_foot = mymps_get_navurl('foot',30);}
+                    {loop $navurl_foot $k $mymps}
                 	<li><a href="{$mymps[url]}" style="color:{$mymps[color]}" target="{$mymps[target]}">{$mymps[title]}<sup class="{$mymps[ico]}"></sup></a></li>
-                    <!--{/loop}-->
+                    {/loop}
                 </ul>
             </div>
         </div>
         <div class="foot_wx">
-        	<div class="hd">扫一扫，访问手机站</div>
+<!--        	<div class="hd">扫一扫，访问手机站</div>-->
             <div class="bd">
             	<ul>
-                	<img alt="{$mymps_global[SiteName]}手机版" src="{$mymps_global[SiteUrl]}/qrcode.php?value={$mymps_global[SiteUrl]}/m/index.php&size=4.7">
+<!--                	<img alt="{$mymps_global[SiteName]}手机版" src="{$mymps_global[SiteUrl]}/qrcode.php?value={$mymps_global[SiteUrl]}/m/index.php&size=4.7">-->
                 </ul>
             </div>
         </div>
         <div class="foot_wx" id="gzh">
-        	<div class="hd">关注微信公众号</div>
+<!--        	<div class="hd">关注微信公众号</div>-->
             <div class="bd">
             	<ul>
-                	<img alt="{$mymps_global[SiteName]}微信公众号" src="{$mymps_global[SiteUrl]}/erweima.gif">
+<!--                	<img alt="{$mymps_global[SiteName]}微信公众号" src="{$mymps_global[SiteUrl]}/erweima.gif">-->
                 </ul>
             </div>
         </div>
